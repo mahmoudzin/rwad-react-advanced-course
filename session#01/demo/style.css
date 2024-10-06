@@ -1,0 +1,47 @@
+/* Basic CSS Reset */
+body {
+  margin: 0; /* Default: 0, removes default margin */
+  padding: 0; /* Default: 0, removes default padding */
+  font-family: Arial, sans-serif; /* Default: varies, specifies font for the text */
+  color: #000; /* Default: #000000, sets the text color */
+  background-color: #fff; /* Default: #ffffff, sets the background color */
+}
+
+/* Padding and Margin */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 20px; /* Default: varies, space outside the element */
+  padding: 10px; /* Default: 0, space inside the element */
+}
+
+/* Flexbox Container */
+.flex-container {
+  display: flex; /* Default: block, makes a flex container */
+  justify-content: center; /* Default: flex-start, centers items horizontally */
+  align-items: center; /* Default: stretch, centers items vertically */
+  flex-direction: row; /* Default: row, arranges items in a row */
+}
+
+/* Flexbox Child Properties */
+.flex-item {
+  flex: 1; /* Default: 0 1 auto, allows the item to grow */
+  margin: 5px; /* Default: 0, space outside the element */
+  padding: 10px; /* Default: 0, space inside the element */
+}
+
+/* Text Properties */
+p {
+  font-size: 16px; /* Default: varies, size of the font */
+  line-height: 1.5; /* Default: normal, space between lines */
+}
+
+/* Color and Background Properties */
+h1 {
+  color: #3498db; /* Sets color of heading 1 */
+  background-color: #ecf0f1; /* Sets background color for heading 1 */
+}
