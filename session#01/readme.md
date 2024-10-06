@@ -1,79 +1,74 @@
-**Learn Objectives:**
+# Web Development Course
 
-1.  What is Object-Oriented Programming (OOP) and why is it used in
-    software development?
+## Table of Contents
 
-2.  What are the key principles of Object-Oriented Programming?
+- [Objectives](#objectives)
+- [Interview Questions](#interview-questions)
+- [Self-Study](#self-study)
+- [Assignments](#assignments)
+- [Bonus](#bonus)
 
-3.  How do you differentiate between a class and an object in OOP?
+## Objectives
 
-4.  What is prototypal inheritance and how does it work in JavaScript\'s
-    OOP model?
+- What is HTML and how is it used in web development?
+- How do you structure HTML documents using nested tags?
+- What are empty tags in HTML, and when are they used?
+- How can you create text elements using `<p>`, `<h1>`…`<h6>` tags?
+- How do you create hyperlinks using the `<a>` tag in HTML?
+- What are the differences between ordered and unordered lists in HTML?
+- How do you use `<ul>`, `<ol>`, and `<li>` to create lists?
+- How can you create forms in HTML using the `<form>` tag?
+- What are the common input types in forms, and how do you implement them using `<input>`?
+- How do you insert images in HTML using the `<img>` tag?
+- What are the different types of buttons in HTML, and how are they created using the `<button>` tag?
+- What is CSS, and how does it enhance the appearance of a web page?
+- What are the different ways to apply CSS to an HTML document (inline, internal, external)?
+- What are the various CSS selectors, and how are they used to style elements?
+- How do padding and margin work in the CSS box model?
+- How do you apply colors and backgrounds to elements using CSS?
+- What are the different methods of specifying colors in CSS?
+- How can you use CSS to manage layouts, especially using flexbox?
+- What are the key typography properties in CSS, and how do they affect text appearance?
 
-5.  What is a constructor function in JavaScript and how is it used to
-    create objects?
+## Interview Questions
 
-6.  How is the prototype property used in constructor functions for
-    inheritance?
+- What is HTML, and how is it used in web development?
+- How do you structure HTML documents using nested tags?
+- What is the purpose of the `<a>` tag in HTML, and how do you create hyperlinks?
+- How can you create forms in HTML using the `<form>` tag?
+- What are the common input types in forms, and how do you implement them using `<input>`?
+- What is CSS, and how does it enhance the appearance of a web page?
+- What are the different ways to apply CSS to an HTML document (inline, internal, external)?
+- How do padding and margin work in the CSS box model?
+- How can you use CSS to manage layouts, especially using flexbox?
+- What are semantic HTML tags, and why are they important for web accessibility and SEO?
+- Can you explain the CSS box model and how it affects the layout of a webpage?
+- What are the `srcset` and `sizes` attributes in the `<img>` tag, and how do they help with responsive images?
+- What is the purpose of the `<iframe>` tag, and what attributes are commonly used with it?
 
-7.  What is the class syntax introduced in ES6 for creating objects?
+## Self-Study
 
-8.  How is the **this** keyword utilized in OOP to refer to the current
-    object instance?
+- **Semantic Tags in HTML5:** Study the importance of semantic tags for improving accessibility and SEO.  
+  **Resource:** [MDN: HTML5 Semantic Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+- **CSS Box Model:** Delve deeper into the CSS box model, including content, padding, border, and margin, and how they affect layout.  
+  **Resource:** [MDN: CSS Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model)
+- **Responsive Images Techniques:** Learn about the `srcset` and `<picture>` elements for serving responsive images based on screen size.  
+  **Resource:** [MDN: Responsive Images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+- **Using the `<iframe>` Tag:** Explore how to use the `<iframe>` tag for embedding content from other sources, such as videos or maps. Understand its attributes and best practices.  
+  **Resource:** [MDN: `<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe)
 
-**Interview Questions:**
+## Assignments
 
-1.  Explain the concept of Object-Oriented Programming and its
-    advantages.
+- **Create a Web Page:** Design a web page similar to the following example: Bakery Site.
 
-2.  What are the main principles of Object-Oriented Programming?
+## Bonus
 
-3.  Can you differentiate between a class and an object? Provide
-    examples.
+- **Animation:** Research and implement a bounce animation for the banner section.
+- **Position Property:** Learn about the position property in CSS and create a section using absolute positioning.
 
-4.  What is prototypal inheritance and how does it differ from classical
-    inheritance?
+---
 
-5.  How do constructor functions work in JavaScript and what is their
-    purpose?
+Created by Mahmoud Shaaban
 
-6.  Describe the role of the prototype property in constructor functions
-    for inheritance.
-
-7.  What is the significance of the class syntax introduced in ES6 for
-    object creation?
-
-8.  How is the **this** keyword used in JavaScript\'s OOP paradigm?
-
-self-study:
-
--   **Browser Object Module (BOM):**
-
-    -   <https://www.w3schools.com/js/js_window.asp>
-
-    -   <https://www.javascripttutorial.net/javascript-bom/>
-
-**Assignment:**
-
--   Refactor the CRUD project using the OOP paradigm.
-
--   Read about one of the following design patterns and share a post
-    about it with your network on LinkedIn:
-
-    -   [Command
-        Pattern](https://www.patterns.dev/vanilla/command-pattern)
-
-    -   [Factory
-        Pattern](https://www.patterns.dev/vanilla/factory-pattern)
-
-    -   [Flyweight
-        Pattern](https://www.patterns.dev/vanilla/flyweight-pattern)
-
-**Bonus:**
-
--   Optimize the Movies App:
-
-    -   Handle loading and error cases for each endpoint (fetch initial
-        data, search data).
-
-    -   Use the debounce JavaScript technique to manage search requests.
+- [LinkedIn](https://www.linkedin.com/in/mahmoud-shaaban-5192b720a/)
+- [GitHub](https://github.com/mahmoudzin)
