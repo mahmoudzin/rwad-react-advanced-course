@@ -1,65 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML & CSS Example</title>
+    <title>Bakery Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700;800;900&family=Alegreya:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>This is a Heading 1</h1>
-    <h2>This is a Heading 2</h2>
-    <h3>This is a Heading 3</h3>
-    <h4>This is a Heading 4</h4>
-    <h5>This is a Heading 5</h5>
-    <h6>This is a Heading 6</h6>
+    <!-- 
+     1- Flex Pracitce
+     2- Viewport units [vh, vw]
+     3- background images
+     7- hover
+     8- transition [property, duration, timing-function [ease, linear, ease-in, ease-out, ease-in-out], transition-delay] 
+     9- border
+     10- redaios
+     4- Position [relatie, absolute, fixed, static]
+     5- z-index
+     6- opacity - display: none
+     9- RWD Responsive Web Design 
+    -->
 
-    <p>This is a paragraph. It contains text that provides information.</p>
+    <!-- Demo Panel -->
 
-    <a href="#">This is a hyperlink</a>
-    <!-- Required attribute: href (specifies the URL) -->
+    <!-- Navbar Section -->
 
-    <img src="image.jpg" alt="Description of Image" />
-    <!-- Required attributes: src (image source), alt (description of the image) -->
+    <!-- <nav class="navbar">
+      <div class="container">
+        <a class="logo" href="#">
+          <img class="logo-img" src="images/bakery-light-1.png" alt="logo" />
+        </a>
+        <ul class="nav-links">
+          <li><a class="nav-link active" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#our">Our Offer</a></li>
+          <li><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav> -->
 
-    <ul>
-      <li>List item 1</li>
-      <li>List item 2</li>
-      <li>List item 3</li>
-    </ul>
+    <!-- Home Section -->
+    <!-- <section class="home" id="home">
+      <div class="home-content">
+        <p class="intro">Welcome to</p>
+        <h1 class="title">Family Bakery</h1>
+        <p class="description">
+          We're the biggest, best equipped, and most advanced Bakery in the
+          greater Los Angeles area.
+        </p>
+        <div class="buttons">
+          <a href="#gallery"
+            ><button class="btn learn-more">Learn More</button></a
+          >
+          <a href="#contact"
+            ><button class="btn contact-us">Contact Us</button></a
+          >
+        </div>
+      </div>
+      <a class="scroll-indicator" href="#about"></a>
+    </section> -->
 
-    <ol>
-      <li>Ordered item 1</li>
-      <li>Ordered item 2</li>
-      <li>Ordered item 3</li>
-    </ol>
+    <!-- About Section -->
+    <!-- <section class="about" id="about">
+      <div class="container">
+        <div class="about-row">
+          <div class="about-image">
+            <img
+              src="images/alexandru-stavrica-170390-800x760.jpg"
+              alt="About Us"
+            />
+          </div>
+          <div class="about-content">
+            <h2>Who We Are?</h2>
+            <p>
+              We have been operating for over 30 years and are Members of The
+              Federation of Master Builders...
+            </p>
+            <ul class="about-list">
+              <li><i class="icon-check"></i> We care about the environment.</li>
+              <li>
+                <i class="icon-users"></i> We are trusted by hundreds of
+                clients.
+              </li>
+              <li><i class="icon-heart"></i> Social media loves us!</li>
+              <li>
+                <i class="icon-list"></i> This list is super easy to create.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section> -->
 
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" />
-      <!-- Input type: text -->
+    <!-- Our Offer Section -->
+    <!-- <section class="our-offer" id="our">
+      <div class="container">
+        <div class="offer-row">
+          <div class="offer-text">
+            <h2>Our Location</h2>
+            <p>
+              We have been operating for over 30 years and are Members of The
+              Federation of Master Builders...
+            </p>
+          </div>
+          <div class="offer-image">
+            <img src="images/full-2-800x640.jpg" alt="Location" />
+          </div>
+        </div>
+      </div>
+    </section> -->
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" />
-      <!-- Input type: email -->
+    <!-- Gallery Section -->
+    <!-- <section class="gallery" id="gallery">
+      <div class="container">
+        <h2>Our Baking</h2>
+        <div class="gallery-row">
+          <div class="gallery-item">
+            <img src="images/photo1.jpg" alt="Superior Breads" />
+            <h4>Superior Breads</h4>
+            <p>
+              Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis
+              libero...
+            </p>
+          </div>
+          <div class="gallery-item">
+            <img src="images/photo2.jpg" alt="Bagels" />
+            <h4>Bagels</h4>
+            <p>
+              Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis
+              libero...
+            </p>
+          </div>
+          <div class="gallery-item">
+            <img src="images/photo3.jpg" alt="Cookies" />
+            <h4>Cookies</h4>
+            <p>
+              Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis
+              libero...
+            </p>
+          </div>
+        </div>
+      </div>
+    </section> -->
 
-      <label for="password">Password:</label>
-      <input type="password" id="password" name="password" />
-      <!-- Input type: password -->
+    <!-- Contact Section -->
+    <!-- <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-row">
+          <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>I am a text block. Click edit button to change this text...</p>
+            <ul class="contact-details">
+              <li>
+                <i class="icon-location"></i> Manchester St 123-78B, Random 713,
+                UK
+              </li>
+              <li><i class="icon-phone"></i> +46 123 456 789</li>
+              <li><i class="icon-headphones"></i> +37 431 456 789</li>
+              <li><i class="icon-paper-plane"></i> hello@sitename.com</li>
+            </ul>
+          </div>
+          <div class="contact-map">
+            <iframe
+              src="https://www.google.com/maps/embed..."
+              allowfullscreen=""
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section> -->
 
-      <label for="gender">Gender:</label>
-      <input type="radio" id="male" name="gender" value="male" /> Male
-      <input type="radio" id="female" name="gender" value="female" /> Female
-
-      <label for="age">Age:</label>
-      <input type="number" id="age" name="age" min="0" max="120" />
-      <!-- Input type: number -->
-
-      <label for="message">Message:</label>
-      <textarea id="message" name="message"></textarea>
-      <!-- Text area for larger text inputs -->
-
-      <input type="submit" value="Submit" />
-      <!-- Input type: submit -->
-    </form>
+    <!-- Footer Section -->
+    <!-- <footer class="footer">
+      <div class="container">
+        <div class="footer-row">
+          <div class="footer-about">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          </div>
+          <div class="footer-special">
+            <h4>Why We Are Special?</h4>
+            <ul>
+              <li><i class="icon-chevron-right"></i> Our magical recipe.</li>
+              <li>
+                <i class="icon-chevron-right"></i> We are trusted by hundreds of
+                clients.
+              </li>
+              <li><i class="icon-chevron-right"></i> Social media loves us!</li>
+            </ul>
+          </div>
+          <div class="footer-hours">
+            <h4>Opening Hours</h4>
+            <ul>
+              <li>Monday 10AM - 9PM</li>
+              <li>Tuesday 10AM - 9PM</li>
+              <li>Wednesday 10AM - 9PM</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer> -->
   </body>
 </html>

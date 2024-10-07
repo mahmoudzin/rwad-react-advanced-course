@@ -18,8 +18,8 @@
 - Comprehending the CSS box model and the interaction of width, height, padding, and margin
 - Controlling the opacity of elements in CSS and understanding the difference between opacity and transparency
 - Utilizing `display: none` and its impact on element layout
-- Applying CSS transforms to manipulate element appearance (scale, rotate, translate)
 - Using CSS transitions to create smooth changes between states of an element
+- RWD - Responsive Web Design
 
 ## Interview Questions
 
